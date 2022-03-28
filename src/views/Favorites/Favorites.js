@@ -40,12 +40,16 @@ const Favorites = () => {
 
 		<div className="container mx-auto grid grid-cols-1 md:grid-cols-3 p-10  gap-28 mb-16">
 			{
-				favoritesItems.map(item => (
+				favoritesItems ? (favoritesItems.map(item => (
 					<Dish 
 						dishObj={item}
 						key={item.idMeal}
 					/>
-				))
+				))):(
+					<div>
+						<h3>Not found</h3>
+					</div>
+				)
 			}
 			<Modal active={modalNew} closeModal={setModalNew} submitRecipe={setNewFav}/>
 

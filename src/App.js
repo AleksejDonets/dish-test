@@ -20,8 +20,8 @@ function App() {
 			
 			
 				<Routes>
-				  <Route path="/" element={<Main/>}/>
-				  <Route path="/favorites" element={<Favorites/>}/>
+				  <Route path="/dish-task" element={<Main/>}/>
+				  <Route path="/dish-task/favorites" element={<Favorites/>}/>
 				</Routes>
 			</ContextModal.Provider>
 			
