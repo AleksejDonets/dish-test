@@ -14,14 +14,14 @@ function App() {
 		<div className="App grid ">
 			<ContextModal.Provider value={[modalNew, setModalNew]}>
 				<Header>
-					<CustomLink to="/dish-task" > Random dish</CustomLink>
-					<CustomLink to="/dish-task/favorites"> Favorites</CustomLink>
+					<CustomLink to="/" > Random dish</CustomLink>
+					<CustomLink to="/favorites"> Favorites</CustomLink>
 				</Header>
 			
 			
 				<Routes>
-				  <Route path="/dish-task" element={<Main/>}/>
-				  <Route path="/dish-task/favorites" element={<Favorites/>}/>
+				  <Route path="/" element={<Main/>}/>
+				  <Route path="/favorites" element={<Favorites/>}/>
 				</Routes>
 			</ContextModal.Provider>
 			
