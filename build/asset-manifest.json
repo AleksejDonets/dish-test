@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dish-task/static/css/main.03da6596.css",
+    "main.js": "/dish-task/static/js/main.fe5cdd72.js",
+    "static/js/787.653b9a16.chunk.js": "/dish-task/static/js/787.653b9a16.chunk.js",
+    "index.html": "/dish-task/index.html",
+    "main.03da6596.css.map": "/dish-task/static/css/main.03da6596.css.map",
+    "main.fe5cdd72.js.map": "/dish-task/static/js/main.fe5cdd72.js.map",
+    "787.653b9a16.chunk.js.map": "/dish-task/static/js/787.653b9a16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03da6596.css",
+    "static/js/main.fe5cdd72.js"
+  ]
+}
